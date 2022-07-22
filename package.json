@@ -19,20 +19,11 @@
   "babel": {
     "presets": [
       "@babel/preset-env"
-    ],
-    "plugins": [
-      [
-        "inline-json-import",
-        {}
-      ]
     ]
   },
   "nodemonConfig": {
     "ignore": [
       "dist"
     ]
-  },
-  "devDependencies": {
-    "babel-plugin-inline-json-import": "~0.3.2"
   }
 }
