@@ -1,12 +1,11 @@
-## Cheat Sheet because I be forgetting
+# Express Starter Template
 
-This overwrites the whole file
+This is a very basic express app, with minimal setup, and with the intent of only server json api responses.
 
-fs.writeFile("server/books.json", JSON.stringify(newBooks), (err) => {
-if (err) {
-throw err;
-}
+Simply run:
 
-    console.log("Finished writing!");
+```
+npm start
+```
 
-});
+to locally run and hot reload the server
